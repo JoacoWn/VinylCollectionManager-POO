@@ -17,9 +17,6 @@ public class ColeccionVinilo {
             vinilos.add(vinilo);
         }
     }
-    public void removeVinilo(Vinilo vinilo) {
-        vinilos.remove(vinilo);
-    }
 
     public int espaciosVacios(){
         return maxVinilos - vinilos.size();
